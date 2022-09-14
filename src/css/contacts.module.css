@@ -1,0 +1,31 @@
+.contact_column {
+  flex: 1;
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+}
+.contact_column h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.contact_column p {
+  margin-bottom: 0;
+  max-width: 42rem;
+  min-width: 20rem;
+}
+.contact_column:last-child {
+  padding-bottom: 25rem;
+}
+
+@media (max-width: 768px) {
+  .contact_column h2 {
+    font-size: 2.2rem;
+  }
+  .contact_column p {
+    max-width: 100%;
+  }
+  .contact_column:last-child {
+    padding-bottom: 32rem;
+  }
+}

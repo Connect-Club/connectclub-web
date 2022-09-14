@@ -1,0 +1,23 @@
+{
+  "locales": ["en"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/privacy": ["privacy"],
+    "/terms": ["terms"],
+    "/contacts": ["contacts"],
+    "/inviters": ["inviters"],
+    "/connectcon": ["connectcon/1/common"],
+    "/connectcon/1": ["connectcon/1/home", "connectcon/1/common"],
+    "/connectcon/1/events/[[...date]]": ["connectcon/1/events", "connectcon/1/common"],
+    "/connectcon/1/speakers": ["connectcon/1/speakers", "connectcon/1/common"],
+    "/connectcon/1/contact": ["connectcon/1/contact", "connectcon/1/common"],
+    "/connectcon/1/privacy": ["connectcon/1/privacy", "connectcon/1/common"],
+    "/connectcon/2": ["connectcon/2/home"],
+    "/connectcon/nft": ["connectcon/nft/events"],
+    "/connectcon/nft/speakers": ["connectcon/nft/events", "connectcon/nft/speakers"],
+    "/connectcon/nft-business": ["connectcon/nft-business/events"],
+    "/connectcon/nft-business/speakers": ["connectcon/nft-business/events", "connectcon/nft-business/speakers"]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Connectcon - Into The Metaverse, November 2021. Stay tuned!",
+  "description": "Into The Metaverse, November 2021. Stay tuned!",
+  "join_button": "Join ConnectCon",
+  "sections": {
+    "first": {
+      "heading": "Into The Metaverse",
+      "date": "November 2021. Stay tuned!",
+      "content": "<p>Our world is undergoing radical social transformation. Our newest global challenges meet deep structural changes, pointing to an urgent need to collaborate more efficiently to create a sustainable future. No one person, group, or country can take on this ambitious agenda and succeed alone. The theme for our second ConnectCon is “global collaboration at an unprecedented scale”.</p>"
+    },
+    "second": {
+      "heading": "Welcome to the СonnectCon, a Festival to Connect Humanity!",
+      "content_1":"<p><strong>This November ConnectCon</strong> invites leaders, scientists, artists, and you to bridge our cultural differences and create global solutions. By uniting individuals who live mindfully, act globally and innovate constantly, ConnectCon is building on our common good.</p>",
+      "content_highlight":"The theme for our first ConnectCon is <strong>\"the people building a better, sustainable future\"</strong>",
+      "content_2": "<p>World-renowned experts, scientists, business leaders, NGOs, startup founders, artists, and social groups will join virtual sessions to find solutions for a better future.</p><p>When you join our conversation and meet these global experts, you become part of the group creating a sustainable future.</p>"
+    },
+    "third": {
+      "heading": "ConnectCon’s Key Topics Include",
+      "content": "<div class=\"d-flex flex-flow-wrap\"><ul><li>Impactful entrepreneurship</li><li>Developing skills of the future</li><li>Leadership</li></ul><ul><li>Building effective communities for collaboration</li><li>Innovative art and culture</li></ul></div>"
+    },
+    "fourth": {
+      "heading": "Join our community",
+      "button_name": "More about speakers",
+      "speakers": {
+        "1": {
+          "image": "/img/festival/landing/speakers/speaker_1.png",
+          "name": "James Priest",
+          "description": "Sociocracy 3.0",
+          "anchor": "james_priest"
+        },
+        "2": {
+          "image": "/img/festival/landing/speakers/speaker_2.png",
+          "name": "Troy Malone",
+          "description": "Mmhmm, All Turtles, ex-Evernote",
+          "anchor": "troy_malone"
+        },
+        "3": {
+          "image": "/img/festival/landing/speakers/speaker_3.png",
+          "name": "Joy Kreeft Peyton",
+          "description": "Dialgue Journal",
+          "anchor": "joy_kreeft_peyton"
+        },
+        "4": {
+          "image": "/img/festival/landing/speakers/speaker_4.png",
+          "name": "Graham Daniels",
+          "description": "Addictive TV / Orchestra Of Samples",
+          "anchor": "graham_daniels"
+        },
+        "5": {
+          "image": "/img/festival/landing/speakers/speaker_5.png",
+          "name": "Tommy Petrov",
+          "description": "Snapchat",
+          "anchor": "tommy_petrov"
+        },
+        "6": {
+          "image": "/img/festival/landing/speakers/speaker_6.png",
+          "name": "Jason Levine",
+          "description": "Fluency Mc",
+          "anchor": "jason_levine"
+        }
+      }
+    },
+    "fifth": {
+      "heading": "ConnectCon Organizers",
+      "content": "<p>ConnectCon is organized by the passionate team behind Connect Club, the new media platform creating meaningful, human connections.</p> <p><a href=\"https://connect.club/\" title=\"Connect.Club\" target=\"_blank\">Connect.Club</a> connects <strong>people who thrive on inspiration, learning, growing in our careers, and culture</strong>.</p> <p>You’ll find our virtual world full of events and people connecting to build a better world. Take the stage in front of a large audience, gather friends for a fireside chat, or host a gallery opening to show off your art. Connect Club creates meaningful, emotionally fulfilling connections with like-minded people who are there when you need them.</p>"
+    },
+    "sixth": {
+      "heading": "A View of Connect.Club"
+    },
+    "seventh": {
+      "heading": "ConnectCon is for",
+      "scenes": {
+        "first": {
+          "title": "#Startups",
+          "anchor": "startups",
+          "style": "2",
+          "subtitle": "Demo day and online startup expo",
+          "rows": {
+            "1": "Meet investors and fellow innovators",
+            "2": "Backstage networking with festival speakers",
+            "3": "Media coverage and Press Room",
+            "4": "Access to all festival events"
+          }
+        },
+        "second": {
+          "title": "#Speakers",
+          "anchor": "speakers",
+          "style": "1",
+          "subtitle": "Future-Shapers and Speakers",
+          "rows": {
+            "1": "Support of ConnectCon team",
+            "2": "Backstage networking with other speakers",
+            "3": "Media coverage and Press Room",
+            "4": "Access to all festival events"
+          }
+        },
+        "third": {
+          "title": "#Attendees",
+          "anchor": "attendees",
+          "style": "3",
+          "rows": {
+            "1": "Support of ConnectCon team",
+            "2": "Networking with other attendees",
+            "3": "Access to all festival events"
+          }
+        }
+      }
+    },
+    "eighth": {
+      "heading": "Have a question or suggestion?",
+      "write_to": "Write to:"
+    }
+  }
+}
+
+
+
+
+
+
+
+

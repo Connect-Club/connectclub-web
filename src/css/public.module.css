@@ -1,0 +1,146 @@
+.block {
+  padding: 12rem 0;
+}
+.block_small {
+  padding: 4rem 0 6rem;
+}
+.h1,
+.h1:global(h1) {
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  font-size: 5.4rem;
+  line-height: 105%;
+  color: var(--first-black);
+  margin-bottom: 4rem;
+}
+
+.page__wrap {
+  margin-bottom: 4rem;
+}
+
+.footer {
+  height: 8rem;
+  background: var(--first-black);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer__rights_text {
+  margin-left: 2rem;
+}
+
+.menu {
+  font-size: 1.4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.menu :global(a) {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 6rem;
+}
+.menu :global(a):hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer :global(.footer__social_icons) {
+  margin-top: 0;
+}
+.footer :global(.footer__social_icons a) {
+  margin-right: 1.6rem;
+}
+.footer :global(.footer__social_icons svg) {
+  fill: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.footer :global(.footer__social_icons svg:hover) {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 1100px) {
+  .page__wrap :global(.container) {
+    max-width: 1000px;
+    padding: 0 2rem;
+  }
+
+  .footer {
+    height: 9rem;
+  }
+
+  .block {
+    padding: 7rem 0;
+  }
+
+  .footer__rights_text {
+    display: none;
+  }
+
+  .footer .footer__inner {
+    padding: 0 4rem;
+  }
+
+  div.h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .page__wrap :global(.container),
+  .page__wrap :global(p) {
+    text-align: center;
+  }
+
+  .page__wrap :global(.header__container) {
+    justify-content: center;
+  }
+
+  .hide768 {
+    display: none !important;
+  }
+
+  .block,
+  .block_small {
+    padding: 3.2rem 0;
+  }
+
+  .h1 {
+    font-size: 4.4rem;
+    line-height: 4.62rem;
+    margin-bottom: 2.4rem;
+  }
+
+  div.h1 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+  }
+
+  .footer .footer__inner {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .menu {
+    margin-bottom: 1.2rem;
+    justify-content: center;
+    column-gap: 1.2rem;
+  }
+
+  .menu :global(a) {
+    margin-right: 0;
+  }
+}

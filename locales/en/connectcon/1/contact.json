@@ -1,0 +1,15 @@
+{
+  "title": "Connectcon contact - Connect Club",
+  "description": "Connectcon contact - Connect Club",
+  "h1": "Contact us",
+  "columns": {
+    "address": {
+      "heading": "Address",
+      "content": "CNNCT LIMITED <br />Konstantinou Paparigopoulou, 14, Heatrow Tower, Flat/Office 201, 3106, Limassol, Cyprus, registration number HE 369285"
+    },
+    "email": {
+      "heading": "Write us",
+      "content": "<a href='mailto:info@connect.club' title='Write us'>info@connect.club</a>"
+    }
+  }
+}

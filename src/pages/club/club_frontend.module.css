@@ -1,0 +1,213 @@
+.header_logo {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+.club {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 3.2rem;
+  padding: 4rem;
+  position: relative;
+  overflow-wrap: break-word;
+}
+.club__logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: calc(50% - 60px);
+  top: calc(0% - 60px);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.club__h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 900;
+  margin-top: 3.6rem;
+  margin-bottom: 0;
+}
+.invite_page .club__h1 {
+  margin-top: 0;
+}
+.without_avatar .header_logo {
+  margin-bottom: 6rem;
+}
+.without_avatar .club__h1 {
+  margin-top: 0;
+}
+.club__count {
+  font-weight: bold;
+  line-height: 3.04rem;
+  margin-bottom: 1.6rem;
+}
+.club :global(p) {
+  line-height: 3.04rem;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 0;
+}
+.club__events :global(h2) {
+  margin-top: 2.4rem;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 4.56rem;
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.5;
+  margin-bottom: 0.8rem;
+}
+.club__events {
+}
+.club__event {
+  display: flex !important;
+  flex-direction: column;
+  text-align: left;
+  color: #000;
+}
+.club__event_time {
+  font-size: 1.2rem;
+}
+.club__event_title {
+  font-weight: bold;
+  line-height: 2.4rem;
+}
+.club__event_participants {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.8rem;
+  margin: 0.8rem 0;
+}
+.club__event_participant_img {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.club__event_desc {
+  font-size: 1.3rem;
+}
+
+.club :global(.slick-dots li),
+.club :global(.slick-dots li button) {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+}
+.club :global(.slick-dots li button):before {
+  left: calc(50% - 6px);
+  top: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.08);
+  content: '';
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.club :global(.slick-dots li):hover :global(button):before {
+  opacity: 0.8;
+  background: #4d7dd0;
+}
+.club :global(.slick-dots li.slick-active button):before {
+  opacity: 1;
+  background: #4d7dd0;
+}
+.club :global(.slick-list) {
+  margin-bottom: 3.2rem;
+}
+.club :global(.slick-dots) {
+  bottom: 0;
+  position: relative;
+}
+.club :global(.slick-slider .slick-list),
+.club :global(.slick-slider .slick-track) {
+  transition: height ease 0.5s;
+}
+
+.attention, .info {
+  border: 1px solid #ff0000;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.info {
+  border-color: #333;
+}
+
+.app_link {
+  display: table;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #4d7dd0;
+  padding: 1rem 2.4rem;
+  border-radius: 10rem;
+  margin: 2.4rem auto 0;
+  background: rgba(77, 125, 208, 0.08);
+}
+.app_link:hover {
+  color: rgba(77, 125, 208, 1);
+  background: rgba(77, 125, 208, 0.12);
+}
+
+.apps_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.apps_wrap :global(p) {
+  margin-bottom: 0;
+  opacity: 0.6;
+  line-height: 2.4rem;
+}
+.apps {
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.additional_info {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 190%;
+  text-align: center;
+  margin: 3.6rem 0 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .club {
+    padding: 2.4rem;
+  }
+
+  .club__h1 {
+    font-size: 3.2rem;
+    line-height: 3.84rem;
+    margin-top: 5.2rem;
+  }
+
+  .additional_info {
+    margin-top: 5.2rem;
+  }
+
+  .club :global(p) {
+    font-size: 1.4rem;
+    line-height: 2.66rem;
+  }
+
+  .club__events :global(h2) {
+    font-size: 2rem;
+    line-height: 3.8rem;
+  }
+
+  .apps_wrap :global(p) {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+
+  .club :global(.slick-dots li button):before {
+    width: 8px;
+    height: 8px;
+  }
+}

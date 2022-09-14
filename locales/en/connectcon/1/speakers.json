@@ -1,0 +1,36 @@
+{
+  "title": "Connectcon speakers - Connect Club",
+  "description": "Connectcon speakers - Connect Club",
+  "speakers": {
+    "1": {
+      "image": "/img/festival/speakers/speaker_1.png",
+      "name": "Dave Karow",
+      "description": "Continuous Delivery Evangelist, Split"
+    },
+    "2": {
+      "image": "/img/festival/speakers/speaker_2.png",
+      "name": "Errol Koolmeister",
+      "description": "Head of AI Foundation, H&M"
+    },
+    "3": {
+      "image": "/img/festival/speakers/speaker_3.png",
+      "name": "Maye Musk",
+      "description": "Role model, trend maker and rule changer"
+    },
+    "4": {
+      "image": "/img/festival/speakers/speaker_1.png",
+      "name": "Dave Karow",
+      "description": "Continuous Delivery Evangelist, Split"
+    },
+    "5": {
+      "image": "/img/festival/speakers/speaker_2.png",
+      "name": "Errol Koolmeister",
+      "description": "Head of AI Foundation, H&M"
+    },
+    "6": {
+      "image": "/img/festival/speakers/speaker_3.png",
+      "name": "Dave Karow",
+      "description": "Continuous Delivery Evangelist, Split"
+    }
+  }
+}

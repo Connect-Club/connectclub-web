@@ -1,0 +1,70 @@
+.table {
+  width: 100%;
+}
+.inherit_table_width .table {
+  width: inherit;
+}
+.table th {
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+}
+.table,
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+.table td {
+  text-align: right;
+}
+.align_left .table td {
+  text-align: left;
+}
+.table tr:hover td {
+  background-color: #ffffb8;
+}
+.table thead {
+  position: sticky;
+  top: 43px;
+  background: #fff;
+  box-shadow: 0 0 3px 0 #ccc;
+}
+.colored_cell {
+  background-color: #d9d9d9;
+}
+.sort_icon {
+  color: #000;
+  position: absolute;
+  right: 5px;
+  font-size: 12px;
+}
+.sortable:hover {
+  background: #f5f5f5;
+}
+.utm_cell {
+  max-width: 250px;
+  overflow-wrap: break-word;
+}
+.grey {
+  background: #eee;
+}
+th.bordered_left,
+td.bordered_left {
+  border-left: 5px solid #ccc;
+}
+
+.bucket_users {
+  display: none;
+  font-size: 0.9em;
+}
+
+.hide_cell_percentage :global(.cell-percentage) {
+  display: none;
+}
+
+.table_flex_column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}

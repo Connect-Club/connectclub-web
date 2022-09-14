@@ -1,0 +1,55 @@
+.tr {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.tr > div:first-child {
+  padding-left: 0;
+}
+.tr > div:last-child {
+  padding-right: 0;
+}
+.tr:last-child {
+  border-bottom: none;
+}
+.tr > div {
+  flex: 1;
+  padding: 0.65rem;
+}
+.tr > div.event_name {
+  flex: 2;
+}
+.th {
+  font-weight: 700;
+}
+.tr > div.delete_icon {
+  flex: 0;
+}
+
+.delete_icon svg {
+  fill: #f00;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.delete_icon a:hover svg {
+  fill: rgba(255, 0, 0, 0.55);
+}
+.event_list .delete_icon a {
+  padding: 0.65rem;
+}
+
+.info_block {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+.success_text {
+  color: #52c41a;
+  display: inline-flex;
+  margin-left: 5px;
+  align-items: center;
+}
+.success_text > :global(.anticon) {
+  margin-right: 5px;
+}

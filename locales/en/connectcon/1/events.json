@@ -1,0 +1,29 @@
+{
+  "title": "Connectcon events - Connect Club",
+  "description": "Connectcon events - Connect Club",
+  "all_day_long_event": "All-Day long Events",
+  "open_event": "Open event",
+  "not_mobile_links_title": "Install app Connect.club on your mobile device",
+  "events": {
+    "first": {
+      "title": "Art Expo: “Metronomicon” by Alexey Andreev",
+      "link": "https://app.cnnct.club/a/key_live_lbUKXoq5Mu4PgpAt7S4v8kceutij138R?room=612377e326cf6&pswd=5UBKA6WPmDeXiLjI",
+      "description": "The room where you can get acquainted with pieces of art and have a discussion with the other attendees of the room<div style=\"margin-top:.5rem\" class=\"align-center\">28/08 11am Meeting with Artist</div>"
+    },
+    "second": {
+      "title": "Networking room \uD83D\uDC6B",
+      "link": "https://app.cnnct.club/a/key_live_lbUKXoq5Mu4PgpAt7S4v8kceutij138R?room=6127639206535&pswd=LFLrfNX2iZcJgek1",
+      "description": "To have informal talks and meet other attendees join networking room!"
+    },
+    "third": {
+      "title": "Reception \uD83D\uDE4B\u200D♀️",
+      "link": "https://app.cnnct.club/a/key_live_lbUKXoq5Mu4PgpAt7S4v8kceutij138R?room=612765dae1a8b&pswd=MIDufygfDOXLoWR1",
+      "description": "If you do have any tech questions about the app come here and leave a feedback or find the answers!"
+    },
+    "fourth": {
+      "title": "Demo Connect.Club \uD83D\uDDA5",
+      "link": "https://app.cnnct.club/a/key_live_lbUKXoq5Mu4PgpAt7S4v8kceutij138R?room=612775131ddba&pswd=4G9YEbSotQgUX081",
+      "description": "The best place to get acquainted with our app: find information about our community, goals and plans"
+    }
+  }
+}

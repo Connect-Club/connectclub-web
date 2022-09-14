@@ -1,0 +1,311 @@
+.rnd_object,
+.rnd_object_round {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f00;
+  text-align: center;
+  background: repeating-conic-gradient(from 0, rgba(255, 255, 255, 0.15) 0 25%, rgba(204, 204, 204, 0.15) 0 50%) 50%/ 20px
+    20px;
+}
+.rnd_object_round {
+  border-radius: 50%;
+}
+.rnd_object_type {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+  font-size: 1em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.is_frontend .rnd_object_type {
+  font-size: 16px;
+}
+.rnd_object_round .rnd_object_type {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+.rnd_object_round:not(.rnd_inactive):hover .rnd_object_type {
+  border: 1px dashed #f00;
+}
+.rnd_hide {
+  display: none !important;
+}
+
+.rnd_user_object {
+  z-index: 30;
+  background: rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+}
+.rnd_user_object img {
+  width: 130px;
+  height: 130px;
+}
+.rnd_object img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.rnd_object_delete {
+  display: none;
+  opacity: 0.3;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  z-index: 1;
+}
+.rnd_object_round .rnd_object_delete {
+  right: calc(50% - 18px);
+}
+.rnd_object:hover .rnd_object_delete {
+  display: block;
+}
+.rnd_object_delete:hover {
+  opacity: 1;
+}
+.rnd_image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.control_bar input[readonly] {
+  background: #f5f5f5;
+}
+.control_bar :global(.ant-collapse > .ant-collapse-item > .ant-collapse-header) {
+  cursor: move;
+}
+.lighbulb {
+  transition: color 1s ease;
+  color: #bfbfbf !important;
+  font-size: 16px;
+  top: -1px;
+  position: relative;
+}
+.lighbulb.colored {
+  color: #fadb14 !important;
+}
+.rnd_object .rnd_object_wrap:after {
+  opacity: 0;
+  transition: opacity 1s ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fadb14;
+}
+.rnd_object_round:after {
+  border-radius: 50%;
+}
+.rnd_object.colored .rnd_object_wrap {
+  z-index: 40 !important;
+}
+.rnd_object.colored .rnd_object_wrap:after {
+  opacity: 1;
+}
+
+.zoom_control {
+  position: absolute;
+  left: calc(850px - 40px);
+  top: 10px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+.zoom_control button {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  align-items: center;
+}
+.zoom_control button:first-child {
+  margin-bottom: 5px;
+}
+.is_frontend .zoom_control {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+.is_frontend .zoom_control button {
+  margin: 0 0 0 10px;
+}
+
+.is_loading {
+  position: relative;
+}
+.is_loading:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.antd_input {
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  height: 30px;
+  padding: 0 11px;
+  width: 90px;
+  transition: all 0.3s;
+}
+.antd_input:hover {
+  border-color: #40a9ff;
+}
+.antd_input:focus {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  border-color: #40a9ff;
+  outline: 0;
+}
+
+.rnd_object_bar {
+  display: none;
+  position: absolute;
+  background: #4d7dd0;
+}
+.rnd_object_wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: move;
+}
+
+.handle {
+  position: absolute;
+  display: none;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  z-index: 1;
+}
+.handle_top .handle {
+  top: -10px;
+}
+.handle_right .handle,
+.handle_left .handle {
+  top: calc(50% - 10px);
+}
+.handle_left .handle {
+  right: -4px;
+}
+.handle_right .handle {
+  left: -4px;
+}
+.handle_bottom .handle {
+  bottom: -5px;
+}
+.handle_top .handle,
+.handle_bottom .handle {
+  left: calc(50% - 10px);
+}
+
+.active_rnd_object .rnd_object_bar {
+  display: flex;
+  top: -105px;
+  left: calc(50% - 85px);
+  width: 170px;
+  height: 70px;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.active_rnd_object .rnd_object_bar:after {
+  position: absolute;
+  left: 85px;
+  top: calc(50% - 15px);
+  width: 1px;
+  height: 30px;
+  background: #4367a5;
+  content: '';
+}
+.active_rnd_object .rnd_object_bar .rnd_object_delete {
+  display: block;
+  opacity: 1;
+  position: relative;
+  padding: 15px;
+  top: 0;
+}
+.active_rnd_object + div .handle {
+  display: block;
+}
+
+.rnd_object.is_frontend {
+  border: 0 none;
+}
+.is_frontend .rnd_object_wrap.active_rnd_object {
+  border: 2px dotted #000;
+}
+.rnd_object_delete .rnd_object_delete_icon {
+  background: #fff;
+  mask: url('/img/svg/delete.svg') no-repeat center;
+  width: 38px;
+  height: 38px;
+}
+
+.image_zone {
+  border: 3px solid gold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.image_zone.droppable_active {
+  border: 10px solid black;
+}
+.image_zone_active:after {
+  animation: droppable-image-zone-opacity 2s infinite;
+}
+
+.submit_btn {
+  width: 100px;
+}
+
+.image_modal_info :global(.ant-modal-title) {
+  font-size: 26px;
+}
+.image_modal_info :global(.ant-form-item-label > label),
+.image_modal_info :global(.ant-input) {
+  font-size: 24px;
+}
+.image_modal_info :global(.ant-btn) {
+  font-size: 24px;
+  height: 50px;
+  padding: 4px 35px;
+}
+
+@media (max-width: 767px) {
+  .image_modal_info :global(.ant-modal) {
+    max-width: 90%;
+  }
+}
+
+@keyframes droppable-image-zone-opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

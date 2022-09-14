@@ -1,0 +1,98 @@
+.item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.text_ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.modal_actions {
+  margin-left: auto;
+  text-align: right;
+}
+.modal_actions :global(.anticon) {
+  padding: 16px 24px;
+  display: block;
+  height: 100%;
+}
+.modal .modal_title {
+  padding: 14px 0 14px 24px;
+}
+.modal_actions :global(.anticon):hover,
+.modal_actions.selected :global(.anticon) {
+  opacity: 0.8;
+  cursor: pointer;
+  background: #eee;
+}
+.modal :global(.ant-modal-header) {
+  padding: 0;
+}
+
+.modal_appearance {
+  display: none;
+}
+.modal_settings,
+.modal_settings_wrap,
+.modal_appearance_wrap {
+  display: block;
+}
+.modal :global(.jodit_fullsize .jodit-workplace) {
+  background: rgba(255, 255, 255, 0.8);
+}
+.modal :global(.jodit-container p) {
+  font-size: 16px;
+}
+.modal :global(.jodit-container h1),
+.modal :global(.jodit-toolbar-button__text h1) {
+  font-size: 36px;
+}
+.modal :global(.jodit-container h2),
+.modal :global(.jodit-toolbar-button__text h2) {
+  font-size: 30px;
+}
+.modal :global(.jodit-container h3),
+.modal :global(.jodit-toolbar-button__text h3) {
+  font-size: 24px;
+}
+.modal :global(.jodit-container h4),
+.modal :global(.jodit-toolbar-button__text h4) {
+  font-size: 24px;
+}
+.modal :global(.jodit-container p) {
+  line-height: 1.4;
+}
+
+.speakers {
+  display: flex;
+  column-gap: 10px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  row-gap: 10px;
+}
+.speaker {
+  width: calc(100% / 3 - 10px);
+  position: relative;
+}
+.speaker.speaker_colored {
+  padding: 10px;
+}
+.speaker.speaker_colored .speaker_delete {
+  top: 10px;
+  right: 10px;
+}
+.speaker.speaker_colored:nth-child(2n + 1) {
+  background: #eee;
+}
+.speaker_delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.speaker_image {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Connectcon - Connect Club",
+  "description": "Connectcon - Connect Club",
+  "nav": {
+    "events": "Events",
+    "speakers": "Speakers",
+    "contact": "Contact us",
+    "privacy": "Privacy",
+    "share": "Share"
+  },
+  "tabs": {
+    "events": "Events",
+    "speakers": "Speakers"
+  },
+  "header_month": "August",
+  "back": "Back"
+}

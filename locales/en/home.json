@@ -1,0 +1,161 @@
+{
+  "title": "Connect club - a part of the Metaverse for human connections & community builders",
+  "description": "Connect with like-minded people, start a club & build a strong community in a designed virtual space",
+  "h1": "A part of the Metaverse for human connections & community builders",
+  "main_description": "Connect with like-minded people, start a club & build a strong community in a designed virtual space",
+  "connectcon": {
+    "title": "ConnectCon - the festival about NFTs",
+    "button": "Participate"
+  },
+  "header": {
+    "title": "Join United Metaverse Club & contribute to the community",
+    "button": "Join club"
+  },
+  "explore_button": "Explore Connect.Club",
+  "partners": {
+    "heading": "Our speakers works with",
+    "list": {
+      "item1": {
+        "image": "/img/home/partners/partner1.png",
+        "title": "Title 1"
+      },
+      "item2": {
+        "image": "/img/home/partners/partner2.png",
+        "title": "Title 2"
+      },
+      "item3": {
+        "image": "/img/home/partners/partner3.png",
+        "title": "Title 3"
+      },
+      "item4": {
+        "image": "/img/home/partners/partner4.png",
+        "title": "Title "
+      },
+      "item5": {
+        "image": "/img/home/partners/partner1.png",
+        "title": "Title 5"
+      }
+    }
+  },
+  "reviews": {
+    "item1": {
+      "image": "/img/home/reviews/john_carp.png",
+      "content": "It was a pleasure for me. The app is interesting.",
+      "name": "John Karp, Co-Author at NFT Revolution,  Co-Founder of the podcast NFT Morning"
+    },
+    "item2": {
+      "image": "/img/home/reviews/jean_sebastien.png",
+      "content": "I loved it",
+      "name": "Jean-Sébastien Beaucamps, Сo-founder & CEO of LaCollection"
+    },
+    "item3": {
+      "image": "/img/home/reviews/sebastien_borget.png",
+      "content": "It was great!",
+      "name": "Sebastien Borget, Co-founder and COO of The Sandbox and COO of Pixowl (US), Former President of the Blockchain Game Alliance in 2020"
+    },
+    "item4": {
+      "image": "/img/home/reviews/cris_tran.png",
+      "content": "It was very cool",
+      "name": "Cris D. Tran, Co-Founder of FAM Central"
+    },
+    "item5": {
+      "image": "/img/home/reviews/julie_lamb.png",
+      "content": "I'd enjoy coming back to the stage to share again.",
+      "name": "Julie Lamb, Founder and CEO at How-To With Julie Sue, CNBC Studio Broadcast Producer"
+    },
+    "item6": {
+      "image": "/img/home/reviews/becks_perfect.jpeg",
+      "content": "Connect.Club is really great innovative platform. Loved the avatar selfie at the end too!",
+      "name": "Becks Perfect, Founder of Nifty World NFT"
+    }
+  },
+  "slider1": {
+    "title": "What you can do here",
+    "menu": {
+      "item1": {
+        "name": "Choose a virtual room",
+        "description": "Participate in events or create your own, invite your friends and meet new people."
+      },
+      "item3": {
+        "name": "Connect with doers",
+        "description": "Create your profile and find people with the same interests in your field."
+      },
+      "item5": {
+        "name": "Express your emotions",
+        "description": "... and have fun!"
+      }
+    }
+  },
+  "combined_slider": {
+    "controls": {
+      "first": "Clubs",
+      "second": "Virtual Gallery"
+    },
+    "slider1": {
+      "menu": {
+        "item1": {
+          "name": "Choose interests to find a relevant club",
+          "description": "Choose any of interests and gather like-minded people in the club"
+        },
+        "item2": {
+          "name": "Participate club events",
+          "description": "Create events and meet people with common interests there"
+        },
+        "item3": {
+          "name": "Invite people",
+          "description": "Create a great community and discuss topics that match your interests"
+        }
+      },
+      "button": "Join the Club",
+      "extra": "The club by Connect.Club team"
+    },
+    "slider2": {
+      "menu": {
+        "item1": {
+          "name": "Create a virtual art gallery",
+          "description": "A virtual room with places to put digital art and make a real exhibition"
+        },
+        "item2": {
+          "name": "Arrange an interactive tour",
+          "description": "Create a tour for people and show them your art collection"
+        },
+        "item3": {
+          "name": "Sell and buy digital art",
+          "description": "Right inside you can find out the details and make a deal"
+        }
+      },
+      "button": "Join the Club",
+      "extra": "And visit <br>NFT's galleries"
+    }
+  },
+  "featured": "Featured in",
+  "section3": {
+    "title": "Who are the people",
+    "description": "World-renowned experts, educators, scientists, business leaders, startup founders, artists, and social groups. We connect people who thrive on inspiration, learning, growing in their careers, and culture."
+  },
+  "slider2": {
+    "title": "Join our Clubs or Make Your Own",
+    "menu": {
+      "item1": {
+        "name": "Dome Sandbox",
+        "description": "Experts and leaders openly work with the startups to help them raise the first round of investments."
+      },
+      "item2": {
+        "name": "ELK Club",
+        "description": "A global community of educators and English teachers who are building new formats of digital education."
+      },
+      "item3": {
+        "name": "Meta Education",
+        "description": "A collaboration of global EDTech projects to created Education 5.0 inside the Metaverse."
+      }
+    }
+  },
+  "section4": {
+    "title": "About Connect.Club",
+    "description": "Connect.Club is a part of the future Metaverse, created for like-minded individuals to start a club, develop & build a strong community, and to find meaningful & human connections in a designed virtual space."
+  },
+  "section5": {
+    "title": "Building DAO",
+    "description": "Decentralized governance is crucial to building and managing a globally dispersed community—and therefore has a decisive role for the success of the Connect.Club ecosystem."
+  }
+}

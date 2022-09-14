@@ -1,0 +1,58 @@
+.tr {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.tr > div:first-child {
+  padding-left: 0;
+}
+.tr > div:last-child {
+  padding-right: 0;
+}
+.tr:last-child {
+  border-bottom: none;
+}
+.tr > div {
+  flex: 1;
+  padding: 0.65rem;
+}
+.tr > div.name {
+  flex: 2;
+}
+.th {
+  font-weight: 700;
+}
+
+.anticon_align_fix :global(.anticon) {
+  vertical-align: 0.1em;
+}
+.right_block {
+  margin-left: auto;
+  text-align: right;
+}
+.subscription_price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f5222d;
+}
+.subscription_total {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #52c41a;
+  margin-left: auto;
+}
+
+.widget {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+.widget__content {
+  margin-top: 0.65rem;
+}
+.widget_fullwidth {
+  flex: 100% !important;
+}

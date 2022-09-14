@@ -1,0 +1,33 @@
+{
+  "title": "Connect Club - Contacts",
+  "description": "You can find us in Cyprus or email to info@connect.club. Also you we are available on facebook, instagram or telegram.",
+  "h1": "Contacts",
+  "columns": {
+    "address": {
+      "heading": "Address",
+      "content": "CNNCT LIMITED <br />Konstantinou Paparigopoulou, 14, Heatrow Tower, Flat/Office 201, 3106, Limassol, Cyprus, registration number HE 369285"
+    },
+    "email": {
+      "heading": "Get in touch",
+      "content": "<a href='mailto:info@connect.club' title='Write us'>info@connect.club</a>"
+    }
+  },
+  "social_networks": {
+    "heading": "Our social networks",
+    "facebook": {
+      "icon": "/img/svg/facebook.svg",
+      "text": "Find us on Facebook",
+      "link": "https://www.facebook.com/team.connect.club/"
+    },
+    "instagram": {
+      "icon": "/img/svg/instagram.svg",
+      "text": "Follow us on Instagram",
+      "link": "https://www.instagram.com/connect_club/"
+    },
+    "telegram": {
+      "icon": "/img/svg/telegram.svg",
+      "text": "Join our chat in Telegram",
+      "link": "https://t.me/connect_club_eng"
+    }
+  }
+}

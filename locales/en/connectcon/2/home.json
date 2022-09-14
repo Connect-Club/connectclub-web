@@ -1,0 +1,104 @@
+{
+  "title": "Connectcon - Products Of The Future",
+  "description": "Сan the Metaverse help us build better products for our future?",
+  "join_button": "Join ConnectCon",
+  "sections": {
+    "first": {
+      "heading": "Products Of The Future",
+      "date": "October 29",
+      "content": "<p>A virtual festival for entrepreneurs, artists, and innovators to gather together to better understand how to collaborate more effectively around building the products for the future.</p>\n            <ul>\n                <li>Into the Metaverse: experts and enthusiasts will discuss how to build projects in the Metaverse</li>\n                <li>Metaverse Mingle: get to know fellow doers and their superpowers in our networking space, connect with investors, and meet innovators</li>\n                <li>Metaverse Gallery: visit our virtual gallery to discover the critical milestones of the Metaverse development.</li>\n            </ul>"
+    },
+    "second": {
+      "heading": "Why you need to register",
+      "content_1":"<p>Our gathering of Metaverse entrepreneurs, leaders and innovators is cutting-edge and unique. These accomplished people define new perspectives and create new models for how we work, learn, entertain, connect and collaborate in the virtual environment.</p>"
+    },
+    "third": {
+      "heading": "Program",
+      "content": "<div><ul>\n                <li>Into the Metaverse: leaders, experts, and enthusiasts share insider knowledge about their  Metaverse projects.</li>\n                <li>Metaverse Mingle: get to know fellow doers and their superpowers in our networking space, connect with investors, and meet innovators</li>\n                <li>Metaverse Gallery: hop into our virtual gallery to see the Metaverse exhibition. Discover the history of the Metaverse, find out who’s building it, maybe you will become a part of Metaverse history.</li>\n            </ul></div>"
+    },
+    "fourth": {
+      "heading": "Our Speakers",
+      "button_name": "More about speakers",
+      "speakers": {
+        "1": {
+          "image": "/img/festival/landing2/speakers/speaker1.jpg",
+          "name": "Antony Tran",
+          "description": "CEO at Foundry Six | Metaverse Gaming | Techstars '20",
+          "anchor": "antony_tran"
+        },
+        "2": {
+          "image": "/img/festival/landing2/speakers/speaker2.jpeg",
+          "name": "Enara Nazarova",
+          "description": "Founder at ARMOAR The Digital Fashion & Art Club | Top 30 Voice in the Metaverse",
+          "anchor": "enara_nazarova"
+        },
+        "3": {
+          "image": "/img/festival/landing2/speakers/speaker3.jpeg",
+          "name": "Hrish Lotlikar",
+          "description": "Co-Founder & CEO, SuperWorld",
+          "anchor": "hrish_lotlikar"
+        }
+      }
+    },
+    "fifth": {
+      "heading": "ConnectCon Organizers",
+      "content": "<p>ConnectCon is organized by the passionate team behind Connect Club, the new social media in the Metaverse for genuine human connection</p> <p><a href=\"https://connect.club/\" title=\"Connect.Club\" target=\"_blank\">Connect.Club</a> connects people who thrive on inspiration, learning, and growing our careers and culture.</strong>.</p>"
+    },
+    "sixth": {
+      "heading": "See you in the Metaverse"
+    },
+    "seventh": {
+      "heading": "ConnectCon is for",
+      "scenes": {
+        "first": {
+          "title": "#Startups",
+          "anchor": "startups",
+          "style": "2",
+          "subtitle": "",
+          "rows": {
+            "1": "connect to investors and meet fellow innovators",
+            "2": "get backstage to network with speakers and influencers",
+            "3": "open discussions of projects you might have been working on",
+            "4": "first-hand insights into the development of the Metaverse"
+          }
+        },
+        "second": {
+          "title": "#Speakers",
+          "anchor": "speakers",
+          "style": "1",
+          "subtitle": "",
+          "rows": {
+            "1": "a unique virtual event site in ConnectClub’s part of the Metaverse",
+            "2": "backstage networking with guests and influencers",
+            "3": "inspire and build your audience",
+            "4": "enjoy the full support of our conference team"
+          }
+        },
+        "third": {
+          "title": "#Attendees",
+          "anchor": "attendees",
+          "style": "3",
+          "subtitle": "",
+          "rows": {
+            "1": "get inspired by leading speakers",
+            "2": "network with guests, influencers, and experts",
+            "3": "meet and build your community with like-minded people",
+            "4": "contribute to developing the Metaverse"
+          }
+        }
+      }
+    },
+    "eighth": {
+      "heading": "Have a question or suggestion?",
+      "write_to": "Write to:"
+    }
+  }
+}
+
+
+
+
+
+
+
+

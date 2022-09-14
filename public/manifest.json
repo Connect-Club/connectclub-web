@@ -1,0 +1,11 @@
+{
+  "name": "Connect club",
+  "short_name": "Connect club",
+  "icons": [{
+    "src": "google-touch-icon.png",
+    "sizes": "512x512"
+  }],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+}

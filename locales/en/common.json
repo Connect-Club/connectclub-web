@@ -1,0 +1,18 @@
+{
+    "nav": {
+        "contacts": "Contacts",
+        "inviters": "Top inviters",
+        "privacy": "Privacy policy",
+        "terms": "Terms of use"
+    },
+    "app-store-alt": "Download Connect.club on the App Store",
+    "google-play-alt": "Get Connect.club on Google Play",
+    "mac-store-alt": "App for MacOS",
+    "mac-store-mobile": "...and we have version for MacOS too :).",
+    "logo-title": "Connect.club",
+    "error404": {
+        "title": "Where am I?..",
+        "description": "Seems that page you've requested didn't exist.",
+        "button": "Go to homepage"
+    }
+}

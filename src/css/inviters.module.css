@@ -1,0 +1,120 @@
+.table {
+  display: grid;
+  grid-template: auto / 0.6fr 3fr 1fr;
+  font-size: 1.5rem;
+  align-items: center;
+  overflow: hidden;
+}
+.th,
+.table > div {
+  padding: 1.6rem 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.tr {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.table .inviter_counter {
+  padding-left: 5rem;
+}
+.th {
+  border-bottom: 2px solid #000;
+  font-weight: 700;
+}
+.table > div:not(.th) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.table > div > div {
+  z-index: 2;
+  position: relative;
+}
+.table > div:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1000%;
+  left: -1000%;
+  z-index: 1;
+}
+.table > div:not(.th):hover::before {
+  background-color: #fafafa;
+}
+
+.inviter_id {
+  justify-content: flex-end;
+}
+.inviter_counter {
+  text-align: left;
+}
+.inviter_counter.th {
+  padding-left: 2rem;
+  white-space: nowrap;
+}
+.inviter_img {
+  width: 3.2rem;
+  height: 3.2rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  position: relative;
+  text-align: center;
+}
+/*.inviter_img img { max-width: 100%; max-height: 100%;  }*/
+.inviter_img > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*.inviter_img img { min-width: 100%;*/
+/*    min-height: 100%;*/
+/*    height: auto;*/
+/*    width: auto;*/
+/*    transform: translate(-50%, -50%);*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;  }*/
+.inviter_name {
+  font-weight: 700;
+}
+.inviter_username {
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .table {
+    grid-template-columns: min-content auto min-content;
+  }
+  .inviter_name_wrapper {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .inviter_name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .inviter_username {
+    width: 100%;
+    margin: 0;
+  }
+  .th,
+  .table > div {
+    padding: 1rem;
+    min-width: 0;
+  }
+  .inviter_id {
+    justify-content: flex-start;
+  }
+  .inviter_counter {
+    padding-left: 1rem;
+    justify-content: flex-end;
+  }
+}

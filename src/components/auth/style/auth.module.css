@@ -1,0 +1,60 @@
+.loginBlock_wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  top: calc(50% - 150px);
+  position: absolute;
+  left: calc(50% - 150px);
+  overflow: hidden;
+}
+.loginBlock {
+  border: 1px solid #d3dbe2;
+  border-radius: 4px;
+}
+.loginBlock__form {
+  background: #fff;
+}
+.loginBlock__form h4 {
+  margin: 0;
+}
+.loginBlock__body {
+  padding: 0.65rem;
+}
+.loginBlock__header {
+  text-align: center;
+  padding: 0.65rem;
+  border-bottom: 1px solid #eee;
+}
+.loginBlock__footer {
+  background-color: #f5f5f5;
+  padding: 0.65rem;
+  border-top: 1px solid #eee;
+}
+.loginBlock__button {
+  margin-right: 5px;
+}
+.loginBlock__fields_input {
+  margin-left: 5px !important;
+}
+.loginBlock__fields_select {
+  width: 80px;
+}
+.loginBlock__flag {
+  width: 2em;
+  height: 2em;
+}
+.loginBlock__errors {
+  color: #ff0000;
+}
+
+.avatar_wrapper { position: relative; overflow: hidden; border-radius: 50% }
+.avatar_wrapper:after {
+  content: 'Change'; position: absolute; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; opacity: 0; align-items: center;
+  background: rgba(0, 0, 0, .3); transition: opacity .3s; color: #fff; justify-content: center; display: flex; font-weight: bold;
+}
+.avatar_wrapper:hover:after { opacity: 1; }
+.delete_avatar { background: #fff; border-radius: 50%; position: absolute; bottom: 0; right: 0; z-index: 1; display: none }
+.upload_avatar_block:hover .delete_avatar { display: block; }
+.delete_avatar svg { fill: #666 }
+.delete_avatar:hover svg { fill: #333 }

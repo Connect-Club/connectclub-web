@@ -1,0 +1,178 @@
+.container {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 3.2rem;
+  padding: 4rem;
+  position: relative;
+}
+.container :global(p) {
+  line-height: 3.04rem;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: calc(50% - 60px);
+  top: calc(0% - 60px);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+.logo_inner {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.logo :global(img) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.header_logo {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+.h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 900;
+  margin-top: 3.6rem;
+  margin-bottom: 1.2rem;
+}
+.clubs {
+  margin: 2.4rem 0;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2.4rem;
+}
+.club {
+  width: 100%;
+  padding: 2.4rem;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05), 0 12px 18px rgba(13, 46, 95, 0.06);
+  border-radius: 2rem;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.club__name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+.club__image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-flex;
+  margin: 0 0.8rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+.price {
+  margin: 4.4rem 0 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.black {
+  color: #080725;
+}
+
+.button {
+  background: #4d7dd0;
+  color: #fff;
+  padding: 1.3rem 9.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  text-align: center;
+  border: 0 none;
+  border-radius: 2.4rem;
+  display: inline-flex;
+}
+.button:hover {
+  background: #74a3f5;
+}
+.button:disabled {
+  background: rgb(10 5 40 / 30%);
+}
+
+.error {
+  color: #ff0000;
+}
+
+.hint {
+  margin-top: 1.2rem;
+}
+.link {
+  color: #4d7dd0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
+  color: #74a3f5;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2.4rem;
+  }
+
+  .h1 {
+    font-size: 3.2rem;
+    line-height: 3.84rem;
+  }
+
+  .container :global(p) {
+    font-size: 1.4rem;
+    line-height: 2.66rem;
+  }
+
+  .button {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .disconnect {
+    display: block;
+  }
+
+  .hint {
+    font-size: 1.4rem;
+  }
+}

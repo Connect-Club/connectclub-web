@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.dashed {
+  border-bottom: 1px dashed;
+  display: inline-block;
+}
+.dashed:hover {
+  border-bottom-color: transparent;
+}
+.preview {
+  width: 128px;
+  height: 256px;
+  position: relative;
+}
